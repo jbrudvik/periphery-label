@@ -1,0 +1,10 @@
+{
+  "name": "periphery-label",
+  "main": "periphery-label.js",
+  "dependencies": {
+    "jquery": "2.*",
+    "underscore": "1.*"
+  },
+  "keywords": ["periphery", "label", "message"],
+  "ignore": [".jshintrc", ".gitignore"]
+}
