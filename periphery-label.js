@@ -13,6 +13,8 @@
    * Parameters:
    *
    * - id (string): Used for determining content order (required for consistent ordering)
+   *
+   * @param {String} id
    */
   function PeripheryLabel(id) {
 
@@ -99,7 +101,11 @@
    *
    * - element: The element to be inserted (required)
    * - container: The element under which element will be inserted (required)
-   * - attr (string): The attribute by which child elements are sorted (default: id)
+   * - attr (String): The attribute by which child elements are sorted (default: id)
+   *
+   * @param {DOM element} element
+   * @param {DOM element} container
+   * @param {String} attr
    */
   PeripheryLabel.prototype.insertSortedByAttr = function (element, container, attr) {
     attr = attr || 'id';
@@ -124,7 +130,9 @@
    *
    * Parameters:
    *
-   * - message (string): The message to be displayed (required)
+   * - message (String): The message to be displayed (required)
+   *
+   * @param {String} message
    */
   PeripheryLabel.prototype.show = function (message) {
     if (!message) {

@@ -1,13 +1,13 @@
 [![Build status](https://img.shields.io/travis/jbrudvik/periphery-label.svg)](https://travis-ci.org/jbrudvik/periphery-label)
 [![Bower version](http://img.shields.io/bower/v/periphery-label.svg)](https://github.com/jbrudvik/periphery-label)
 
-  - [PeripheryLabel()](#peripherylabel)
+  - [PeripheryLabel()](#peripherylabelidstring)
   - [PeripheryLabel.setToWindowTop()](#peripherylabelsettowindowtop)
-  - [PeripheryLabel.insertSortedByAttr()](#peripherylabelinsertsortedbyattr)
-  - [PeripheryLabel.show()](#peripherylabelshow)
+  - [PeripheryLabel.insertSortedByAttr()](#peripherylabelinsertsortedbyattrelementdomelementcontainerdomelementattrstring)
+  - [PeripheryLabel.show()](#peripherylabelshowmessagestring)
   - [PeripheryLabel.hide()](#peripherylabelhide)
 
-## PeripheryLabel()
+## PeripheryLabel(id:String)
 
   A label that displays a message on the periphery.
   
@@ -26,7 +26,7 @@
   Fixed CSS positioning does not always hold, so force the correct absolute
   position if necessary.
 
-## PeripheryLabel.insertSortedByAttr()
+## PeripheryLabel.insertSortedByAttr(element:DOMelement, container:DOMelement, attr:String)
 
   Inserts an element underneath a container element in position maintains
   sorted order of child elements by given attr.
@@ -39,9 +39,9 @@
   
   - element: The element to be inserted (required)
   - container: The element under which element will be inserted (required)
-  - attr (string): The attribute by which child elements are sorted (default: id)
+  - attr (String): The attribute by which child elements are sorted (default: id)
 
-## PeripheryLabel.show()
+## PeripheryLabel.show(message:String)
 
   Display message in label.
   
@@ -49,7 +49,7 @@
   
   Parameters:
   
-  - message (string): The message to be displayed (required)
+  - message (String): The message to be displayed (required)
 
 ## PeripheryLabel.hide()
 
