@@ -103,8 +103,8 @@
    * - container: The element under which element will be inserted (required)
    * - attr (String): The attribute by which child elements are sorted (default: id)
    *
-   * @param {DOM element} element
-   * @param {DOM element} container
+   * @param {Element} element
+   * @param {Element} container
    * @param {String} attr
    */
   PeripheryLabel.prototype.insertSortedByAttr = function (element, container, attr) {

@@ -3,7 +3,7 @@
 
   - [PeripheryLabel()](#peripherylabelidstring)
   - [PeripheryLabel.setToWindowTop()](#peripherylabelsettowindowtop)
-  - [PeripheryLabel.insertSortedByAttr()](#peripherylabelinsertsortedbyattrelementdomelementcontainerdomelementattrstring)
+  - [PeripheryLabel.insertSortedByAttr()](#peripherylabelinsertsortedbyattrelementelementcontainerelementattrstring)
   - [PeripheryLabel.show()](#peripherylabelshowmessagestring)
   - [PeripheryLabel.hide()](#peripherylabelhide)
 
@@ -26,7 +26,7 @@
   Fixed CSS positioning does not always hold, so force the correct absolute
   position if necessary.
 
-## PeripheryLabel.insertSortedByAttr(element:DOMelement, container:DOMelement, attr:String)
+## PeripheryLabel.insertSortedByAttr(element:Element, container:Element, attr:String)
 
   Inserts an element underneath a container element in position maintains
   sorted order of child elements by given attr.
