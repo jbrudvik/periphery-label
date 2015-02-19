@@ -6,5 +6,5 @@
     "underscore": "1.*"
   },
   "keywords": ["periphery", "label", "message"],
-  "ignore": [".jshintrc", ".gitignore"]
+  "ignore": ["**/.*", "*.md", "generate-docs"]
 }
