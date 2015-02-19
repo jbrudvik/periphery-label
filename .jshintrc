@@ -14,8 +14,8 @@
   "expr": true,
   "curly": false,
   "browser": true,
-  "predef": [
-    "$",
-    "_"
-  ]
+  "globals": {
+    "$": false,
+    "_": false
+  }
 }
