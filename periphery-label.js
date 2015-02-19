@@ -1,6 +1,4 @@
 
-/* global $:false, _:false */
-
 (function (window, undefined) {
 
   /**
