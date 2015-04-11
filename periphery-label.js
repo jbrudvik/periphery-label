@@ -112,7 +112,7 @@
     var $container = $(container);
     var $children = $($container.children());
     var childIds = $children.map(function (index, child) {
-      return(child.id);
+      return child.id;
     });
     var index = _.sortedIndex(childIds, $element.attr(attr));
     if (!index) {
